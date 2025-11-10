@@ -5,15 +5,19 @@
 
 body {
     background-image:url("./math-bg.webp");
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
 .calculator {
-  background-color: #999999;
+  background-color: #808080ce;
   padding: 20px;
-  max-width: 400px;
+  width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   border: solid 1px #575757c9;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.603);
+  box-shadow: 0 2px 5px rgba(160, 160, 160, 0.603);
   border-radius: 5px;
   margin-top: 40px;
 }
@@ -25,6 +29,8 @@ body {
     border: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
     border-radius: 5px;
+    background-color: #252525a6;
+    color: #d1d1d1;
 }
 
 .buttons{
