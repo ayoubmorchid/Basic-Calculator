@@ -42,11 +42,11 @@ button{
 }
 
 button:hover{
-    background-color: #ddd;
+    background-color: #a7a5a5;
 }
 
 .clear{
-    background-color: #ff4136;
+    background-color: #ac0c04;
     color: #fff;
 }
 
@@ -57,12 +57,12 @@ button:hover{
 }
 
 .operator{
-    background-color: #0074d9;
+    background-color: #114e83;
     color: #fff;
 }
 
 .equals{
-    background-color: #01ff70;
+    background-color: #047234;
     grid-row: span 3;
     color: #fff;
 }
