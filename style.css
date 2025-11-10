@@ -11,7 +11,7 @@ body {
 }
 
 .calculator {
-  background-color: #808080ce;
+  background-color: #e4e4e4ce;
   padding: 20px;
   width: 400px;
   max-width: 500px;
@@ -30,7 +30,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
     border-radius: 5px;
     background-color: #252525a6;
-    color: #d1d1d1;
+    color: #f0eeee;
 }
 
 .buttons{
@@ -44,7 +44,7 @@ button{
     padding: 10px;
     font-size: 24px;
     border: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.568);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
