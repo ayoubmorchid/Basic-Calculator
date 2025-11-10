@@ -45,19 +45,26 @@ button{
 
 }
 
-button:hover{
-    background-color: #a7a5a5;
+.number:hover{
+    background-color: #d1d1d1;
+}
+
+.decimal:hover{
+    background-color: #bebebe;
 }
 
 .clear{
-    background-color: #ac0c04;
+    background-color: #c71209;
     color: #fff;
+}
+
+.clear:hover{
+    background-color: #ac0e05;
 }
 
 .number, .decimal{
     background-color: #fff;
     color: #333;
-
 }
 
 .operator{
@@ -65,8 +72,16 @@ button:hover{
     color: #fff;
 }
 
+.operator:hover{
+    background-color: #0b3f6d;
+}
+
 .equals{
     background-color: #047234;
     grid-row: span 3;
     color: #fff;
+}
+
+.equals:hover{
+    background-color: #035828;
 }
